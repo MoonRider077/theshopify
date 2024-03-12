@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@Layer base {
+  @font-face {
+    font-family: "BeVietnamPro";
+    src: url('./assets/fonts/BeVietnamPro-Medium.ttf')
+  }
+
+  img {
+    width: 100%;
+  }
+  
+  .section {
+    @apply container mx-auto py-[8rem] 
+    px-6;
+  }
+}
